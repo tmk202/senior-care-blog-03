@@ -2,40 +2,50 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kênh Sức Khỏe Người Già</title>
+    <title>Báo Sức Khỏe - Tin tức tổng hợp</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="header-top">
-    <h1>BÁO SỨC KHỎE NGƯỜI GIÀ</h1>
-</div>
-<nav class="nav-menu">
-    <a href="index.html">TRANG CHỦ</a>
-    <a href="blog.html">TIN TỨC</a>
-    <a href="about.html">VỀ CHÚNG TÔI</a>
+
+<header class="top-header">
+    <div style="font-size: 30px; font-weight: bold; color: var(--brand-red);">Kênh Sức Khỏe</div>
+    <input type="text" placeholder="Tìm kiếm...">
+</header>
+<nav class="nav-bar">
+    <a href="#">SỨC KHỎE</a>
+    <a href="#">DINH DƯỠNG</a>
+    <a href="#">VẬN ĐỘNG</a>
 </nav>
 
-<div class="grid">
-    <!-- Hero Article -->
-    <article class="hero-post">
-        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800" alt="Sức khỏe">
-        <h2>Bí quyết giúp người cao tuổi sống vui sống khỏe</h2>
-        <p>Sức khỏe tinh thần và thể chất là hai yếu tố then chốt giúp các bác luôn tươi trẻ mỗi ngày...</p>
-    </article>
+<main class="main-wrapper">
+    <section>
+        <div class="featured-grid">
+            <div class="main-news">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800" alt="Main">
+                <h3>Bí quyết sống thọ của các cụ ông 90 tuổi</h3>
+            </div>
+            <div class="side-news">
+                <img src="https://via.placeholder.com/200" alt="Side">
+                <h4>Cách trị đau xương khớp</h4>
+            </div>
+        </div>
 
-    <!-- Sidebar -->
-    <aside>
-        <div class="side-card">
-            <img src="https://via.placeholder.com/200" alt="thumb">
-            <h3>Dinh dưỡng ngày Tết</h3>
+        <div class="post-list">
+            <div class="post-item"><img src="https://via.placeholder.com/200" alt="news"><h4>Tin 1</h4></div>
+            <div class="post-item"><img src="https://via.placeholder.com/200" alt="news"><h4>Tin 2</h4></div>
+            <div class="post-item"><img src="https://via.placeholder.com/200" alt="news"><h4>Tin 3</h4></div>
         </div>
-        <div class="side-card">
-            <img src="https://via.placeholder.com/200" alt="thumb">
-            <h3>Tập luyện tại gia</h3>
-        </div>
+    </section>
+
+    <aside class="sidebar-widget">
+        <h3>Giá vàng hôm nay</h3>
+        <table class="price-table">
+            <tr><th>Loại</th><th>Mua</th><th>Bán</th></tr>
+            <tr><td>SJC</td><td>184,200</td><td>187,200</td></tr>
+        </table>
+        <div style="margin-top:20px; color:red;">[BIỂU ĐỒ GIÁ VÀNG]</div>
     </aside>
-</div>
+</main>
 
 </body>
 </html>
