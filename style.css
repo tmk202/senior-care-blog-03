@@ -1,0 +1,27 @@
+:root {
+    --brand-color: #e11d48;
+    --dark: #1e293b;
+    --light: #f8fafc;
+    --white: #ffffff;
+}
+
+body { font-family: 'Segoe UI', sans-serif; font-size: 18px; color: var(--dark); background: var(--light); margin: 0; }
+
+/* Header - Kênh 14 style */
+.header-top { background: var(--white); padding: 20px; text-align: center; border-bottom: 2px solid var(--brand-color); }
+.header-top h1 { margin: 0; color: var(--brand-color); font-size: 40px; }
+.nav-menu { background: var(--dark); padding: 10px; display: flex; justify-content: center; gap: 20px; }
+.nav-menu a { color: white; text-decoration: none; font-weight: bold; }
+
+/* Grid layout */
+.grid { max-width: 1100px; margin: 20px auto; display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+
+/* Main Post */
+.hero-post { background: var(--white); padding: 20px; border-radius: 8px; }
+.hero-post img { width: 100%; height: auto; border-radius: 8px; }
+.hero-post h2 { font-size: 32px; color: var(--brand-color); }
+
+/* Sidebar Cards */
+.side-card { background: var(--white); padding: 15px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.side-card img { width: 100%; border-radius: 4px; }
+.side-card h3 { font-size: 18px; margin: 10px 0; }
